@@ -1,4 +1,4 @@
-# Pelinstaller
+# Plican linstaller
 
 [![License: GPL v3](https://img.shields.io/github/license/Zinidia/Pelinstaller)](LICENSE.md)
 
@@ -17,14 +17,13 @@ Learn more about [Pelican's Project](https://pelican.dev/) here. This script is 
 To use the installation scripts, simply run this command as root. The script will ask you whether you would like to install just the panel, just Wings or both.
 
 ```bash
-bash <(curl -Ss https://raw.githubusercontent.com/Zinidia/Pelinstaller/Production/install.sh || wget -O - https://raw.githubusercontent.com/Zinidia/Pelinstaller/Production/install.sh) auto
+bash <(curl -Ss https://raw.githubusercontent.com/SaturoTech1/Pelican-Installer/Production/install.sh || wget -O - https://raw.githubusercontent.com/Zinidia/SaturoTech1/Pelican-Installer/install.sh) auto
 ```
 
 _Note: On some systems, it's required to be already logged in as root before executing the one-line command (where `sudo` is in front of the command does not work)._
 
 ⚠️ Warning: There is currently an issue where Pelican creates files owned by the wrong Linux user when specific features on the admin panel are enabled. To resolve this, you may have to adjust the permissions by running the following command: `chown -R www-data:www-data /var/www/pelican`. For more details, check Pelican's [troubleshooting guide](https://pelican.dev/docs/troubleshooting/).
 
-Here is a [YouTube Video](https://www.youtube.com/watch?v=E8UJhyUFoHM) that illustrates the installation process.
 
 ## Features
 
@@ -85,18 +84,3 @@ I would like to extend my sincere thanks to the following sponsors for helping f
 | Company                                                   | About                                                                                                                                                                                                                                           |
 |-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ForestRacks**](https://forestracks.com/vps)  | Looking for a place to host your Pelican Panel? Try out a ForestRacks VPS, ForestRacks is a US-based 5-Star hosting provider offering services globally since 2019. |
-
-## Contributors ✨
-
-We would like to thank the following contributors for their work in maintaining and creating this installer:
-1) [Matthew Jacob](https://github.com/Zinidia)
-2) [Vilhelm Prytz](https://github.com/vilhelmprytz)
-3) [Linux123123](https://github.com/Linux123123)
-4) [ImGreen](https://github.com/GreenDiscord)
-5) [Neon](https://github.com/DeveloperNeon)
-6) [sam1370](https://github.com/sam1370)
-7) [Linux123123](https://github.com/Linux123123)
-8) [sinjs](https://github.com/sinjs)
-
-Copyright (C) 2018 - 2024, Vilhelm Prytz
-Copyright (C) 2021 - 2024, Matthew Jacob
